@@ -1,0 +1,54 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="188" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyDeprecationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="type.with_ui" />
+          <option value="rpa.models.RPA.objects" />
+          <option value="logs.models.SystemLog.objects" />
+          <option value="rpa.models.RPA.DoesNotExist" />
+          <option value="rpa.models.RPAReportTable.DoesNotExist" />
+          <option value="django.contrib.auth.models.User.DoesNotExist" />
+          <option value="users.models.RoleUser.objects" />
+          <option value="users.models.Role.objects" />
+          <option value="users.models.Role.DoesNotExist" />
+          <option value="server.models.ServerInfo.objects" />
+          <option value="server.models.ServerInfo.DoesNotExist" />
+          <option value="rpa.models.RPAUser.objects" />
+          <option value="rpa.models.RPAUser.DoesNotExist" />
+          <option value="rpa.models.RPAReportTable.objects" />
+          <option value="rpa.models.RPAExecution.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.rpa_name" />
+          <option value="django.db.models.fields.related.ForeignKey.username" />
+          <option value="rpa.models.RPASchedule.objects" />
+          <option value="set.sort" />
+          <option value="int.now" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
